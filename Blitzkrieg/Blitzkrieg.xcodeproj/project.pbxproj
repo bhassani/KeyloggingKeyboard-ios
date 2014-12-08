@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B347EB51A01E30B00B7E9E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B347EB41A01E30B00B7E9E0 /* AppDelegate.swift */; };
+		1B347EB71A01E30B00B7E9E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B347EB61A01E30B00B7E9E0 /* ViewController.swift */; };
+		1B347EBA1A01E30B00B7E9E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B347EB81A01E30B00B7E9E0 /* Main.storyboard */; };
+		1B347EBC1A01E30B00B7E9E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B347EBB1A01E30B00B7E9E0 /* Images.xcassets */; };
+		1B347EBF1A01E30B00B7E9E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B347EBD1A01E30B00B7E9E0 /* LaunchScreen.xib */; };
+		1B347ECB1A01E30B00B7E9E0 /* BlitzkriegTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B347ECA1A01E30B00B7E9E0 /* BlitzkriegTests.swift */; };
+		1B347EDD1A01E34A00B7E9E0 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B347EDC1A01E34A00B7E9E0 /* KeyboardViewController.swift */; };
+		1B347EE01A01E34A00B7E9E0 /* CodeKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1B347ED81A01E34A00B7E9E0 /* CodeKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B347EC51A01E30B00B7E9E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B347EA71A01E30B00B7E9E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B347EAE1A01E30B00B7E9E0;
+			remoteInfo = Blitzkrieg;
+		};
+		1B347EDE1A01E34A00B7E9E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B347EA71A01E30B00B7E9E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B347ED71A01E34A00B7E9E0;
+			remoteInfo = CodeKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B347EE41A01E34A00B7E9E0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1B347EE01A01E34A00B7E9E0 /* CodeKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B347EAF1A01E30B00B7E9E0 /* Blitzkrieg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blitzkrieg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B347EB31A01E30B00B7E9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B347EB41A01E30B00B7E9E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B347EB61A01E30B00B7E9E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B347EB91A01E30B00B7E9E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B347EBB1A01E30B00B7E9E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1B347EBE1A01E30B00B7E9E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1B347EC41A01E30B00B7E9E0 /* BlitzkriegTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlitzkriegTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B347EC91A01E30B00B7E9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B347ECA1A01E30B00B7E9E0 /* BlitzkriegTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlitzkriegTests.swift; sourceTree = "<group>"; };
+		1B347ED81A01E34A00B7E9E0 /* CodeKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CodeKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B347EDB1A01E34A00B7E9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B347EDC1A01E34A00B7E9E0 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B347EAC1A01E30B00B7E9E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B347EC11A01E30B00B7E9E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B347ED51A01E34A00B7E9E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B347EA61A01E30B00B7E9E0 = {
+			isa = PBXGroup;
+			children = (
+				1B347EB11A01E30B00B7E9E0 /* Blitzkrieg */,
+				1B347EC71A01E30B00B7E9E0 /* BlitzkriegTests */,
+				1B347ED91A01E34A00B7E9E0 /* CodeKeyboard */,
+				1B347EB01A01E30B00B7E9E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B347EB01A01E30B00B7E9E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B347EAF1A01E30B00B7E9E0 /* Blitzkrieg.app */,
+				1B347EC41A01E30B00B7E9E0 /* BlitzkriegTests.xctest */,
+				1B347ED81A01E34A00B7E9E0 /* CodeKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B347EB11A01E30B00B7E9E0 /* Blitzkrieg */ = {
+			isa = PBXGroup;
+			children = (
+				1B347EB41A01E30B00B7E9E0 /* AppDelegate.swift */,
+				1B347EB61A01E30B00B7E9E0 /* ViewController.swift */,
+				1B347EB81A01E30B00B7E9E0 /* Main.storyboard */,
+				1B347EBB1A01E30B00B7E9E0 /* Images.xcassets */,
+				1B347EBD1A01E30B00B7E9E0 /* LaunchScreen.xib */,
+				1B347EB21A01E30B00B7E9E0 /* Supporting Files */,
+			);
+			path = Blitzkrieg;
+			sourceTree = "<group>";
+		};
+		1B347EB21A01E30B00B7E9E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B347EB31A01E30B00B7E9E0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B347EC71A01E30B00B7E9E0 /* BlitzkriegTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B347ECA1A01E30B00B7E9E0 /* BlitzkriegTests.swift */,
+				1B347EC81A01E30B00B7E9E0 /* Supporting Files */,
+			);
+			path = BlitzkriegTests;
+			sourceTree = "<group>";
+		};
+		1B347EC81A01E30B00B7E9E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B347EC91A01E30B00B7E9E0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B347ED91A01E34A00B7E9E0 /* CodeKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1B347EDC1A01E34A00B7E9E0 /* KeyboardViewController.swift */,
+				1B347EDA1A01E34A00B7E9E0 /* Supporting Files */,
+			);
+			path = CodeKeyboard;
+			sourceTree = "<group>";
+		};
+		1B347EDA1A01E34A00B7E9E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B347EDB1A01E34A00B7E9E0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B347EAE1A01E30B00B7E9E0 /* Blitzkrieg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B347ECE1A01E30B00B7E9E0 /* Build configuration list for PBXNativeTarget "Blitzkrieg" */;
+			buildPhases = (
+				1B347EAB1A01E30B00B7E9E0 /* Sources */,
+				1B347EAC1A01E30B00B7E9E0 /* Frameworks */,
+				1B347EAD1A01E30B00B7E9E0 /* Resources */,
+				1B347EE41A01E34A00B7E9E0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B347EDF1A01E34A00B7E9E0 /* PBXTargetDependency */,
+			);
+			name = Blitzkrieg;
+			productName = Blitzkrieg;
+			productReference = 1B347EAF1A01E30B00B7E9E0 /* Blitzkrieg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B347EC31A01E30B00B7E9E0 /* BlitzkriegTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B347ED11A01E30B00B7E9E0 /* Build configuration list for PBXNativeTarget "BlitzkriegTests" */;
+			buildPhases = (
+				1B347EC01A01E30B00B7E9E0 /* Sources */,
+				1B347EC11A01E30B00B7E9E0 /* Frameworks */,
+				1B347EC21A01E30B00B7E9E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B347EC61A01E30B00B7E9E0 /* PBXTargetDependency */,
+			);
+			name = BlitzkriegTests;
+			productName = BlitzkriegTests;
+			productReference = 1B347EC41A01E30B00B7E9E0 /* BlitzkriegTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B347ED71A01E34A00B7E9E0 /* CodeKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B347EE11A01E34A00B7E9E0 /* Build configuration list for PBXNativeTarget "CodeKeyboard" */;
+			buildPhases = (
+				1B347ED41A01E34A00B7E9E0 /* Sources */,
+				1B347ED51A01E34A00B7E9E0 /* Frameworks */,
+				1B347ED61A01E34A00B7E9E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeKeyboard;
+			productName = CodeKeyboard;
+			productReference = 1B347ED81A01E34A00B7E9E0 /* CodeKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B347EA71A01E30B00B7E9E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Priyank Sanghavi";
+				TargetAttributes = {
+					1B347EAE1A01E30B00B7E9E0 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					1B347EC31A01E30B00B7E9E0 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 1B347EAE1A01E30B00B7E9E0;
+					};
+					1B347ED71A01E34A00B7E9E0 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 1B347EAA1A01E30B00B7E9E0 /* Build configuration list for PBXProject "Blitzkrieg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B347EA61A01E30B00B7E9E0;
+			productRefGroup = 1B347EB01A01E30B00B7E9E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B347EAE1A01E30B00B7E9E0 /* Blitzkrieg */,
+				1B347EC31A01E30B00B7E9E0 /* BlitzkriegTests */,
+				1B347ED71A01E34A00B7E9E0 /* CodeKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B347EAD1A01E30B00B7E9E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B347EBA1A01E30B00B7E9E0 /* Main.storyboard in Resources */,
+				1B347EBF1A01E30B00B7E9E0 /* LaunchScreen.xib in Resources */,
+				1B347EBC1A01E30B00B7E9E0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B347EC21A01E30B00B7E9E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B347ED61A01E34A00B7E9E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B347EAB1A01E30B00B7E9E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B347EB71A01E30B00B7E9E0 /* ViewController.swift in Sources */,
+				1B347EB51A01E30B00B7E9E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B347EC01A01E30B00B7E9E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B347ECB1A01E30B00B7E9E0 /* BlitzkriegTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B347ED41A01E34A00B7E9E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B347EDD1A01E34A00B7E9E0 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B347EC61A01E30B00B7E9E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B347EAE1A01E30B00B7E9E0 /* Blitzkrieg */;
+			targetProxy = 1B347EC51A01E30B00B7E9E0 /* PBXContainerItemProxy */;
+		};
+		1B347EDF1A01E34A00B7E9E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B347ED71A01E34A00B7E9E0 /* CodeKeyboard */;
+			targetProxy = 1B347EDE1A01E34A00B7E9E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B347EB81A01E30B00B7E9E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B347EB91A01E30B00B7E9E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B347EBD1A01E30B00B7E9E0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B347EBE1A01E30B00B7E9E0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B347ECC1A01E30B00B7E9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B347ECD1A01E30B00B7E9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B347ECF1A01E30B00B7E9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Blitzkrieg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B347ED01A01E30B00B7E9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Blitzkrieg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1B347ED21A01E30B00B7E9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlitzkriegTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blitzkrieg.app/Blitzkrieg";
+			};
+			name = Debug;
+		};
+		1B347ED31A01E30B00B7E9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlitzkriegTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blitzkrieg.app/Blitzkrieg";
+			};
+			name = Release;
+		};
+		1B347EE21A01E34A00B7E9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CodeKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1B347EE31A01E34A00B7E9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CodeKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B347EAA1A01E30B00B7E9E0 /* Build configuration list for PBXProject "Blitzkrieg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B347ECC1A01E30B00B7E9E0 /* Debug */,
+				1B347ECD1A01E30B00B7E9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B347ECE1A01E30B00B7E9E0 /* Build configuration list for PBXNativeTarget "Blitzkrieg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B347ECF1A01E30B00B7E9E0 /* Debug */,
+				1B347ED01A01E30B00B7E9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B347ED11A01E30B00B7E9E0 /* Build configuration list for PBXNativeTarget "BlitzkriegTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B347ED21A01E30B00B7E9E0 /* Debug */,
+				1B347ED31A01E30B00B7E9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B347EE11A01E34A00B7E9E0 /* Build configuration list for PBXNativeTarget "CodeKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B347EE21A01E34A00B7E9E0 /* Debug */,
+				1B347EE31A01E34A00B7E9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B347EA71A01E30B00B7E9E0 /* Project object */;
+}
