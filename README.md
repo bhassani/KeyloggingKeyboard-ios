@@ -3,7 +3,7 @@ Keylogging iOS 8 Custom Keyboard
 
 This repository is a proof of concept for an iOS 8 custom keyboard that will log any key stroke entered by the user: it sends the data on a local server everytime the return key is pressed.
 
-This code was implemented by CMU students as part of a research project with Data Theorem performed throughout Fall 2014. The original repository is available at https://github.com/priyank-sanghavi/Mobile-Security---Data-Theorem.
+This code was implemented by Carnegie Mellon University students as part of a research project with Data Theorem performed throughout Fall 2014. The original repository is available at https://github.com/priyank-sanghavi/Mobile-Security---Data-Theorem.
 
 
 Instructions
